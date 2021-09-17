@@ -44,7 +44,7 @@ metadata:
   name: svc-wordpress
 spec:
   selector:
-    name: wordpress
+    app: wordpress
   ports:
   - port: 8080
     targetPort: 80
